@@ -21,6 +21,29 @@ public class Supermarket {
     float hargaJualConv = Float.parseFloat(hargaJual);
     float hargaBeliConv = Float.parseFloat(hargaBeli);
     
+    public String getNamaProduk() {
+        return namaProduk;
+    }
+    
+    public String getNamaSupplier() {
+        return namaSupplier;
+    }
+    
+    public String getLokasiSupplier() {
+        return lokasiSupplier;
+    }
+    
+    public float gethargaJual() {
+        return hargaJual;
+    }
+    
+    public String getStokProduk() {
+        return stokProduk;
+    }
+    
+    public float getHargaBeli() {
+        return hargaBeli;
+    }
     
     public static void main(String[] args) {
         System.out.println("Hello World!");
